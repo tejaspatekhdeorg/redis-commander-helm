@@ -31,7 +31,7 @@ redis:
   # -- Specifies redis username - supported since Redis 6.0 with ACL support.
   username: ""
   # -- Specifies redis password
-  password: ""
+  password: "something"
 
   # -- Alternative: Specifies multiple redis endpoints <label:host:port>,... instead of one in "redis.host"
   # Example: "local:localhost:6379,myredis:10.10.20.30"
